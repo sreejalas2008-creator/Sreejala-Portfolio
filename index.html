@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sreejala S | AI & ML Engineering Student Portfolio</title>
+<meta name="description" content="Portfolio of Sreejala S, first-year AI and Machine Learning engineering student at BGS College of Engineering and Technology.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<header class="nav" id="nav">
+  <a href="#home" class="logo">Sreejala<span>.S</span></a>
+  <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+  <nav id="menu">
+    <a href="#about">About</a><a href="#education">Education</a><a href="#skills">Skills</a>
+    <a href="#projects">Projects</a><a href="#design-thinking">Design Thinking</a>
+    <a href="#certificates">Achievements</a><a href="#journey">Journey</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<!-- ===== 1. HERO ===== -->
+<section id="home" class="hero">
+  <canvas id="circuit" aria-hidden="true"></canvas>
+  <div class="wrap hero-grid">
+    <div>
+      <p class="hello">Hi, I'm</p>
+      <h1>Sreejala S</h1>
+      <h2 class="role">AI &amp; Machine Learning Engineering Student</h2>
+      <p class="tagline">Innovating Ideas. Building Solutions. Creating Impact.</p>
+      <p>First-year engineering student at BGS College of Engineering and Technology, learning to turn curiosity about AI, code and electronics into working projects.</p>
+      <div class="btns">
+        <a href="#projects" class="btn primary">Explore My Work</a>
+        <a href="#contact" class="btn ghost">Contact Me</a>
+        <a href="#" class="btn ghost" id="resumeBtn">Download Resume</a>
+      </div>
+    </div>
+    <div class="photo" id="photo"><img src="photo.jpg" alt="Portrait of Sreejala S"></div>
+  </div>
+</section>
+
+<!-- ===== 2. ABOUT ===== -->
+<section id="about" class="section reveal">
+  <div class="wrap narrow">
+    <h2 class="title">About Me</h2>
+    <p>I'm a first-year Artificial Intelligence and Machine Learning student who loves understanding how technology works, and then building something with it. AI fascinates me because it lets machines learn from data, and I want to understand the ideas behind it, not just use the tools.</p>
+    <p>Programming is where my curiosity gets practical. I'm learning C and Python, building web pages with HTML, CSS and JavaScript, and experimenting with electronics on the ESP32. I enjoy picking up new technologies, making mistakes, and improving with every project.</p>
+    <p>My goal is to grow into a skilled engineer who solves real problems with thoughtful, well-built solutions.</p>
+  </div>
+</section>
+
+<!-- ===== 3. EDUCATION ===== -->
+<section id="education" class="section alt reveal">
+  <div class="wrap narrow">
+    <h2 class="title">Education</h2>
+    <div class="timeline">
+      <div class="tl-item"><h3>First Year Engineering</h3><p>B.E. in Artificial Intelligence and Machine Learning</p><p class="muted">BGS College of Engineering and Technology</p><p class="muted">2026 – 2030</p></div>
+      <div class="tl-item"><h3>2nd PUC</h3><p>Narayana PU College</p><p class="muted">Score: 92.83%</p><p class="muted">Years : 2025 – 2026</p></div>
+      <div class="tl-item"><h3>10th Standard (CBSE)</h3><p>BEL School</p><p class="muted">Score: 89%</p><p class="muted">Years : 2023 – 2024</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 4. SKILLS ===== -->
+<section id="skills" class="section reveal">
+  <div class="wrap">
+    <h2 class="title">Technical Skills</h2>
+    <p class="sub">Honest levels: <span class="chip learned">Learned</span> basics I've studied and used, <span class="chip learning">Learning</span> still in progress. Edit the levels in index.html.</p>
+    <div class="grid cols4">
+      <div class="card skill" data-level="40"><h3>C Programming</h3><span class="chip learning">Learning</span><div class="bar"><i></i></div></div>
+      <div class="card skill" data-level="35"><h3>Python</h3><span class="chip learning">Learning</span><div class="bar"><i></i></div></div>
+      <div class="card skill" data-level="50"><h3>HTML</h3><span class="chip learned">Learned</span><div class="bar"><i></i></div></div>
+      <div class="card skill" data-level="25"><h3>AI Fundamentals</h3><span class="chip learning">Learning</span><div class="bar"><i></i></div></div>
+      <div class="card skill" data-level="20"><h3>ML Fundamentals</h3><span class="chip learning">Learning</span><div class="bar"><i></i></div></div>
+      <div class="card skill" data-level="35"><h3>ESP32 &amp; Electronics</h3><span class="chip learning">Learning</span><div class="bar"><i></i></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 5. TOOLS ===== -->
+<section id="tools" class="section alt reveal">
+  <div class="wrap">
+    <h2 class="title">Tools &amp; Technologies</h2>
+    <div class="grid cols5">
+      <div class="card tool"><b>&lt;/&gt;</b>VS Code</div>
+      <div class="card tool"><b>∞</b>Arduino IDE</div>
+      <div class="card tool"><b>⑂</b>GitHub</div>
+      <div class="card tool"><b>▤</b>PowerPoint</div>
+      <div class="card tool"><b>◈</b>ESP32</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 6. PROJECTS ===== -->
+<section id="projects" class="section reveal">
+  <div class="wrap">
+    <h2 class="title">My Projects</h2>
+    <div class="grid cols3">
+      <article class="card project">
+        <div class="img"><img src="calculator.jpeg" alt="Scientific Calculator Project"></div>
+        <h3>Scientific Calculator Using C</h3>
+        <p>A menu-driven calculator covering arithmetic and common mathematical functions.</p>
+        <div class="tags"><span>C</span><span>Menu-driven</span><span>Math functions</span></div>
+        <button class="btn ghost small" data-project="calc">View Details</button>
+      </article>
+      <article class="card project">
+        <div class="img"><img src="esp32.jpeg" alt="ESP32 Project"></div>
+        <h3>ESP32 Project</h3>
+        <p>A microcontroller-based project. Used to build IoT, Connects to WiFi and Bluetooth, control devices like switch LEDs,buzzers,motors, read sensors, automate tasks </p>
+        <div class="tags"><span>ESP32</span><span>Arduino IDE</span><span>Electronics</span></div>
+        <button class="btn ghost small" data-project="esp">View Details</button>
+      </article>
+      <article class="card project">
+        <div class="img">Prototype photo<br><small>replace</small></div>
+        <h3>Design Thinking Project</h3>
+        <p>A problem-solving project that follows the design thinking process from observation to solution.</p>
+        <div class="tags"><span>Design Thinking</span><span>Prototype</span><span>Teamwork</span></div>
+        <button class="btn ghost small" data-project="dt">View Details</button>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 7. DESIGN THINKING ===== -->
+<section id="design-thinking" class="section alt reveal">
+  <div class="wrap">
+    <h2 class="title">Design Thinking</h2>
+    <p class="sub">The five-stage process I follow to solve problems.</p>
+    <ol class="steps">
+      <li><b>Empathize</b><p>Observe and understand the people facing the problem.</p></li>
+      <li><b>Define</b><p>State the problem clearly.</p></li>
+      <li><b>Ideate</b><p>Brainstorm many possible solutions.</p></li>
+      <li><b>Prototype</b><p>Build a simple version to try.</p></li>
+      <li><b>Test</b><p>Get feedback and improve.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ===== 8. CERTIFICATES ===== -->
+<section id="certificates" class="section reveal">
+  <div class="wrap">
+    <h2 class="title">Certificates &amp; Achievements</h2>
+    <p class="sub">Placeholders only. Replace each with your real certificate image and title.</p>
+    <div class="grid cols3">
+      <div class="card cert"><div class="img">Image</div><h3>Technical Certificate</h3><p class="muted">[Course / issuer / date]</p></div>
+      <div class="card cert"><div class="img">Image</div><h3>Workshop</h3><p class="muted">[Workshop name / date]</p></div>
+      <div class="card cert"><div class="img">Image</div><h3>Seminar</h3><p class="muted">[Seminar name / date]</p></div>
+      <div class="card cert"><div class="img">Image</div><h3>Competition</h3><p class="muted">[Event / result]</p></div>
+      <div class="card cert"><img class="img" src="award.jpg" alt="Receiving the Academic Excellence Award at the Bharat Electronics Limited award function" loading="lazy"><h3>Academic Excellence Award</h3><p>Bharat Electronics Limited (BEL) Academic Excellence Award Function, for securing 92.83% in 2nd PUC at Narayana PU College.</p><p class="muted">Date: 24/10/2026</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 10. JOURNEY ===== -->
+<section id="journey" class="section reveal">
+  <div class="wrap narrow">
+    <h2 class="title">My Learning Journey</h2>
+    <div class="timeline">
+      <div class="tl-item"><h3>Joining engineering</h3><p>Started B.E. in AI &amp; ML at BGS College of Engineering and Technology.</p></div>
+      <div class="tl-item"><h3>First steps in code</h3><p>Began learning C programming and built a menu-driven scientific calculator.</p></div>
+      <div class="tl-item"><h3>Web and electronics</h3><p>Explored HTML and the ESP32.</p></div>
+      <div class="tl-item"><h3>Challenges and growth</h3><p class="muted">[Write one challenge you faced and what you learned.]</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 11. GOALS ===== -->
+<section id="goals" class="section alt reveal">
+  <div class="wrap">
+    <h2 class="title">Future Goals</h2>
+    <div class="grid cols3">
+      <div class="card goal">Improve my programming skills</div>
+      <div class="card goal">Learn Python in depth</div>
+      <div class="card goal">Understand AI and ML concepts</div>
+      <div class="card goal">Build innovative projects</div>
+      <div class="card goal">Participate in hackathons</div>
+      <div class="card goal">Develop real-world problem-solving skills</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 12. CONTACT ===== -->
+<section id="contact" class="section reveal">
+  <div class="wrap grid cols2">
+    <div>
+      <h2 class="title">Contact Me</h2>
+      <p>Open to learning opportunities, internships and project collaborations.</p>
+      <p><b>Email:</b> <a href="mailto:sreejala.s2008@gmail.com">sreejala.s2008@gmail.com</a></p>
+      <p><b>LinkedIn:</b> <a href="#" target="_blank" rel="noopener">linkedin.com/in/your-profile</a></p>
+      <p><b>GitHub:</b> <a href="#" target="_blank" rel="noopener">github.com/your-username</a></p>
+    </div>
+    <form id="form" class="card" novalidate>
+      <label>Name<input id="fName" required autocomplete="name"></label>
+      <label>Email<input id="fEmail" type="email" required autocomplete="email"></label>
+      <label>Message<textarea id="fMsg" rows="4" required></textarea></label>
+      <button class="btn primary" type="submit">Send Message</button>
+      <p id="formNote" role="status"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<!-- ===== 13. FOOTER ===== -->
+<footer>
+  <div class="wrap foot">
+    <div><b>Sreejala S</b><p class="muted">AI &amp; Machine Learning · BGS College of Engineering and Technology</p></div>
+    <nav><a href="#home">Home</a><a href="#about">About</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav>
+  </div>
+  <p class="copy">© <span id="year">2026</span> Sreejala S. All rights reserved.</p>
+</footer>
+
+<button id="toTop" aria-label="Back to top">↑</button>
+
+<!-- Project details popup (text comes from script.js) -->
+<dialog id="dlg"><h3 id="dTitle"></h3><ul id="dList"></ul><button class="btn primary small" id="dClose">Close</button></dialog>
+
+<script src="script.js"></script>
+</body>
+</html>
