@@ -74,7 +74,7 @@ h1{font-size:clamp(2.6rem,7vw,4.6rem);line-height:1.1;font-weight:700;text-shado
 .tags span{font-size:.75rem;padding:.1rem .7rem;border-radius:999px;background:rgba(56,139,255,.15);color:#8DB9FF}
 
 img.img {
-    width: 100%;
+    width: 100%;height: 150px;object-fit: contain;border-radius: 12px;
     display: block;
 }
 .cert img.img{height:240px;object-fit:cover;object-position:center 55%;border-style:solid}
